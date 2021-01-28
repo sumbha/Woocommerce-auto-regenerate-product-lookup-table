@@ -1,5 +1,5 @@
 === Plugin Name ===
-Plugin Name: Woocommerce auto regenerate product lookup table
+Plugin Name: WC auto regenerate product lookup table
 Plugin URI: http://sumanbhattarai.com.np/woocommerce-auto-regenerate-product-lookup-table/
 Description: Welcome to WordPress Plugin Development.
 Author: Suman Bhattarai
