@@ -23,9 +23,9 @@ function smnwcrpl_display_settings_page() {
         <form action="options.php" method="post">
 
 			<?php
-                settings_fields( 'smnwcrpl_options' );
-                do_settings_sections( 'smnwcrpl' );
-                submit_button();
+			settings_fields( 'smnwcrpl_options' );
+			do_settings_sections( 'smnwcrpl' );
+			submit_button();
 			?>
 
         </form>

@@ -31,10 +31,9 @@ By default plugin adds cron twice a day. If its not working for you change the d
 
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.png. Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk).
+1. Woocommerce auto regenerate product lookup table plugin option
 
 == Changelog ==
 
 = 1.0.0 =
-* First Release date: January 26, 2021
+* First Release date: January 31, 2021

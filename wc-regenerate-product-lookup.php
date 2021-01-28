@@ -1,6 +1,6 @@
 <?php
 /**
- * Woocommerce auto regenerate lookup table
+ * Woocommerce regenerate product lookup table
  *
  * @package           SmnWcrpl
  * @author            Suman Bhattarai
@@ -72,7 +72,7 @@ function smnwcrpl_register_cron_when_plugin_is_activated() {
 	}
 
 	// Add default schedule option
-	add_option('smnwcrpl_options', ['cron_schedule_time' => 'twicedaily']);
+	add_option( 'smnwcrpl_options', [ 'cron_schedule_time' => 'twicedaily' ] );
 }
 
 add_action( 'smnwcrpl_regenerate_product_lookup_table', 'smnwcrpl_auto_regenerate_woocommerce_product_lookup_table' );

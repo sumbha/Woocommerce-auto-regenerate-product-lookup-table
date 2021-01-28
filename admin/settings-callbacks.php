@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Register admin section
  */
 function smnwcrpl_callback_section_admin() {
-	echo '<p>' . esc_html__('These settings enables you to customize Cron settings and change cron frequency.') . '</p>';
+	echo '<p>' . esc_html__( 'These settings enables you to customize Cron settings and change cron frequency.' ) . '</p>';
 }
 
 
@@ -28,10 +28,10 @@ function smnwcrpl_callback_field_select( $args ) {
 	$selected_option = isset( $options[ $id ] ) ? sanitize_text_field( $options[ $id ] ) : '';
 
 	$select_options = [
-		'hourly'     => esc_html__('Hourly'),
-		'twicedaily' => esc_html__('Twice Daily'),
-		'daily'      => esc_html__('Daily'),
-		'weekly'     => esc_html__('Weekly'),
+		'hourly'     => esc_html__( 'Hourly' ),
+		'twicedaily' => esc_html__( 'Twice Daily' ),
+		'daily'      => esc_html__( 'Daily' ),
+		'weekly'     => esc_html__( 'Weekly' ),
 	];
 
 	echo '<select id="smnwcrpl_options_' . $id . '" name="smnwcrpl_options[' . $id . ']">';
