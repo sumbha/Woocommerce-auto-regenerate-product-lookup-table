@@ -70,6 +70,9 @@ function smnwcrpl_register_cron_when_plugin_is_activated() {
 	if ( ! wp_next_scheduled( 'smnwcrpl_regenerate_product_lookup_table' ) ) {
 		wp_schedule_event( time(), 'twicedaily', 'smnwcrpl_regenerate_product_lookup_table' );
 	}
+
+	// Add default schedule option
+	add_option('smnwcrpl_options', ['cron_schedule_time' => 'twicedaily']);
 }
 
 add_action( 'smnwcrpl_regenerate_product_lookup_table', 'smnwcrpl_auto_regenerate_woocommerce_product_lookup_table' );
